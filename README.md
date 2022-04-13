@@ -50,3 +50,9 @@ novo云-IOT，是一款多组织架构框架，为框架基础模块。
 ## 中台架构图
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/62d67929ef8d483f80ef81a67026e999~tplv-k3u1fbpfcp-watermark.image?)
+
+
+
+## 通信协议层
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16f27759355e4da3b62e26b2c63fac79~tplv-k3u1fbpfcp-watermark.image?)
