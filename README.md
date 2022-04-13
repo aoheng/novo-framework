@@ -10,20 +10,20 @@ novo云-IOT，是一款多组织架构框架，为框架基础模块。
 软件架构说明
 有12大基础模块
 
-<modules>
-<module>novo-core</module>
-<module>novo-commons-support</module>
-<module>novo-data-jpa</module>
-<module>novo-data-mybatis</module>
-<module>novo-data-qcloud</module>
-<module>novo-data-mongodb</module>
-<module>novo-data-redis</module>
-<module>novo-data-txLCN</module>
-<module>novo-data-rabbitMQ</module>
-<module>novo-web</module>
-<module>novo-scheduled</module>
-<module>novo-filesystem</module>
-</modules>
+- <modules>
+- <module>novo-core</module>
+- <module>novo-commons-support</module>
+- <module>novo-data-jpa</module>
+- <module>novo-data-mybatis</module>
+- <module>novo-data-qcloud</module>
+- <module>novo-data-mongodb</module>
+- <module>novo-data-redis</module>
+- <module>novo-data-txLCN</module>
+- <module>novo-data-rabbitMQ</module>
+- <module>novo-web</module>
+- <module>novo-scheduled</module>
+- <module>novo-filesystem</module>
+- </modules>
 
 ## 软件要求
 
