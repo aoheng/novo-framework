@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.novo.data.cos.bean.CosConfig",
+      "name": "qcloud.cos",
+      "type": "com.novo.data.cos.bean.CosConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.novo.data.cos.bean.CosConfig",
+      "name": "qcloud.cos.app-id",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.novo.data.cos.bean.CosConfig",
+      "name": "qcloud.cos.region",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.cos.bean.CosConfig",
+      "name": "qcloud.cos.secret-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.cos.bean.CosConfig",
+      "name": "qcloud.cos.secret-key",
+      "type": "java.lang.String"
+    }
+  ]
+}

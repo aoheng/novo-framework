@@ -1,0 +1,81 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb",
+      "type": "com.novo.data.mongodb.config.MongoConfigure"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MultipleMongoConfig",
+      "name": "spring.data.mongodb",
+      "type": "com.novo.data.mongodb.config.MultipleMongoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.authentication-database",
+      "description": "Authentication database name.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.database",
+      "description": "Database name.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MultipleMongoConfig",
+      "name": "spring.data.mongodb.db1",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MultipleMongoConfig",
+      "name": "spring.data.mongodb.db2",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.field-naming-strategy",
+      "description": "Fully qualified name of the FieldNamingStrategy to use.",
+      "type": "java.lang.Class<?>"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.grid-fs-database",
+      "description": "GridFS database name.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.host",
+      "description": "Mongo server host. Cannot be set with uri.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.password",
+      "description": "Login password of the mongo server. Cannot be set with uri.",
+      "type": "java.lang.Character[]"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.port",
+      "description": "Mongo server port. Cannot be set with uri.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.uri",
+      "description": "Mongo database URI. Cannot be set with host, port and credentials.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.novo.data.mongodb.config.MongoConfigure",
+      "name": "spring.data.mongodb.username",
+      "description": "Login user of the mongo server. Cannot be set with uri.",
+      "type": "java.lang.String"
+    }
+  ]
+}
